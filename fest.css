@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(6, 204, 204);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30vh;
+}
+
+.head span, h1, p, div {
+    position: relative;
+    left: 5vh;
+    
+}
+
+.head span {
+    font-size: 34px;
+}
+
+main h1{
+    font-size: 48px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+main .img1 {
+    float: left;
+    height: 200px;
+}
+
+.head p {
+    color: white;
+    font-size: 16px;
+}
+
+.button button {
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
